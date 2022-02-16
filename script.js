@@ -232,6 +232,8 @@ function animate(){
     handleEnemies();
     ctx.fillStyle = 'black';
     ctx.fillText('score: ' + score, 10, 50);
+    ctx.fillStyle = 'white';
+    ctx.fillText('Click and drag to play', 220, 88);
     gameFrame++;
     if (!gameOver) requestAnimationFrame(animate);
 
